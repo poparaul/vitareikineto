@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f1">
+  <title>Administrare tarife — VitareiKineto</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="admin.js" defer></script>
+</head>
+<body class="admin-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">V</span><span class="brand-name">vitarei<span>kineto</span><small>administrare tarife</small></span></a>
+      <a class="button button-outline admin-back" href="index.html#tarife">Înapoi la site <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main class="admin-main">
+    <div class="container admin-container">
+      <p class="eyebrow">Panou de administrare</p>
+      <h1>Editează <span>tarifele.</span></h1>
+      <p class="admin-intro">Modificările se salvează în browserul acestui dispozitiv și se văd pe pagina Tarife deschisă în același browser.</p>
+      <div class="admin-warning"><strong>Important:</strong> Acesta este un prototip local, fără autentificare și fără salvare pe server. Oricine folosește browserul poate modifica tarifele; datele nu se sincronizează între dispozitive și pot fi șterse dacă se curăță datele browserului.</div>
+      <div class="admin-toolbar"><p id="admin-status" role="status" aria-live="polite"></p><div><button class="button button-outline" id="reset-prices" type="button">Restaurare valori arhivate</button><button class="button button-primary" id="save-prices" type="button">Salvează modificările</button></div></div>
+      <p class="admin-source">Valorile inițiale sunt preluate din captura arhivată a site-ului din 2025 și trebuie confirmate înainte de publicare.</p>
+      <div id="admin-price-editor"></div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a href="index.html">VitareiKineto</a><small>Panou demonstrativ de tarife</small></div></footer>
+</body>
+</html>

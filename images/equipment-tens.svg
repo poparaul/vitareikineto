@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrație demonstrativă a unui aparat TENS</title>
+  <desc id="desc">Un dispozitiv portabil digital cu ecran, butoane și cabluri de electrozi.</desc>
+  <rect width="640" height="440" rx="20" fill="#f1e9dc"/>
+  <circle cx="118" cy="103" r="51" fill="#e1e9dc"/>
+  <path d="M0 342c120-38 209-15 310-5 122 13 218-47 330-14v117H0z" fill="#e4d7c6"/>
+  <path d="M213 115q0-18 18-18h178q18 0 18 18v191q0 18-18 18H231q-18 0-18-18z" fill="#557866"/>
+  <rect x="241" y="132" width="158" height="98" rx="9" fill="#e4efe1"/>
+  <rect x="259" y="150" width="91" height="8" rx="4" fill="#8cae95"/>
+  <path d="M259 199c14-23 23 14 38-9s24 17 39-10 24 11 42-6" fill="none" stroke="#bd805f" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="275" cy="270" r="13" fill="#f4ead8"/><circle cx="320" cy="270" r="13" fill="#d0dfd0"/><circle cx="365" cy="270" r="13" fill="#f4ead8"/>
+  <path d="M429 165c73-3 72 65 33 79-46 17-28 85 10 78 34-7 32-37 18-49" fill="none" stroke="#b77c60" stroke-width="7" stroke-linecap="round"/>
+  <path d="M485 262l19 8-11 17" fill="none" stroke="#b77c60" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="471" y="284" width="36" height="29" rx="7" fill="#fffdf8" stroke="#bd8467" stroke-width="4"/>
+  <path d="M213 162c-58-6-61 38-51 63m-2 0 13 17m-13-17 19-2" fill="none" stroke="#6b8d75" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="398" text-anchor="middle" fill="#486a56" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">IMAGINE DEMONSTRATIVĂ</text>
+</svg>
