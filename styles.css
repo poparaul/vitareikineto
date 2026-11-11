@@ -32,7 +32,8 @@ button, input, textarea { font: inherit; }
 .site-header { position: sticky; z-index: 10; top: 0; border-bottom: 1px solid rgba(139,92,246,.12); background: rgba(255,255,255,.82); backdrop-filter: blur(14px); }
 .header-inner { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; flex: 0 0 auto; }
-.brand-mark { width: 41px; height: 41px; display: grid; place-items: center; color: var(--white); background: linear-gradient(135deg, var(--purple) 0%, var(--green) 100%); border-radius: 50% 50% 50% 8px; font-family: Georgia, serif; font-size: 23px; font-style: italic; box-shadow: 0 10px 18px rgba(139,92,246,.25); }
+.brand-mark { width: 46px; height: 46px; display: block; flex: 0 0 auto; overflow: hidden; border-radius: 15px 15px 15px 5px; box-shadow: 0 8px 20px rgba(73,57,119,.18); }
+.brand-symbol { display: block; width: 100%; height: 100%; }
 .brand-name { font-family: Manrope, sans-serif; font-size: 16px; line-height: 1.05; font-weight: 800; letter-spacing: -.7px; }
 .brand-name > span { color: var(--purple); }
 .brand-name small { display: block; padding-top: 4px; color: var(--muted); font: 500 9px "DM Sans", sans-serif; letter-spacing: 1.2px; text-transform: uppercase; }
@@ -227,7 +228,7 @@ h2 { margin-bottom: 0; font-size: clamp(34px, 4vw, 48px); line-height: 1.18; fon
 
 .site-footer { padding: 25px 0; background: var(--green-dark); color: #d5e0d7; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
-.footer-brand .brand-mark { color: var(--green-dark); background: #c9d8c9; }
+.footer-brand .brand-mark { background: none; }
 .footer-brand .brand-name, .footer-brand .brand-name small { color: #fff; }
 .footer-brand .brand-name > span { color: #bcd0c1; }
 .footer-inner p, .footer-inner small, .footer-admin { margin: 0; color: #c0d0c4; font-size: 10px; }
@@ -329,7 +330,7 @@ h2 { margin-bottom: 0; font-size: clamp(34px, 4vw, 48px); line-height: 1.18; fon
 body { background: radial-gradient(ellipse at 82% 4%, rgba(119,82,200,.08), transparent 30%), linear-gradient(160deg, #fbfaff 0%, #fff 52%, #f5faf7 100%); }
 .section-soft { background: linear-gradient(135deg, rgba(243,239,251,.78), rgba(234,245,240,.74)); }
 .site-header { border-color: rgba(119,82,200,.12); background: rgba(255,255,255,.88); box-shadow: 0 8px 26px rgba(41,36,59,.035); }
-.brand-mark { box-shadow: 0 8px 22px rgba(119,82,200,.2); }
+.brand-mark { box-shadow: 0 8px 22px rgba(73,57,119,.2); }
 .main-nav a { transition: color .2s ease, background .2s ease; }
 .main-nav .nav-contact { box-shadow: 0 8px 20px rgba(119,82,200,.2); }
 .button, .service-card, .trust-card, .price-group, .testimonial-card, .contact-form { transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .22s ease; }
@@ -385,7 +386,7 @@ body { background: radial-gradient(ellipse at 82% 4%, rgba(119,82,200,.08), tran
 .contact-form input:focus, .contact-form textarea:focus { border-color: var(--purple); box-shadow: 0 0 0 3px rgba(119,82,200,.13); }
 .form-status { color: var(--green-dark); }
 .site-footer { background: linear-gradient(115deg, #342950 0%, #24473f 100%); }
-.footer-brand .brand-mark { color: #fff; background: linear-gradient(135deg, #8e74d2, #48a087); }
+.footer-brand .brand-mark { background: none; }
 .footer-brand .brand-name > span { color: #c8b7f0; }
 .menu-toggle { color: var(--purple-dark); border-color: rgba(119,82,200,.3); border-radius: 999px; }
 .main-nav .nav-contact:hover { color: #fff; background: linear-gradient(120deg, var(--purple-dark), var(--green-dark)); }
