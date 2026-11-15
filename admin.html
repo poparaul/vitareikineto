@@ -3,17 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f7f1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#ffffff">
   <title>Administrare tarife — VitareiKineto</title>
+  <link rel="icon" type="image/svg+xml" href="images/vitareikineto-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="data.js" defer></script>
   <script src="admin.js" defer></script>
 </head>
 <body class="admin-page">
-  <header class="site-header">
+  <header class="site-header is-scrolled">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><span class="brand-mark"><img class="brand-symbol" src="images/vitareikineto-mark.svg" alt=""></span><span class="brand-name">vitarei<span>kineto</span><small>administrare tarife</small></span></a>
-      <a class="button button-outline admin-back" href="index.html#tarife">Înapoi la site <span aria-hidden="true">↗</span></a>
+      <a class="brand" href="index.html"><img class="brand-logo" src="images/vitareikineto-logo-horizontal.svg" alt="Vita ReiKineto" width="215" height="60"></a>
+      <a class="button button-outline" href="index.html#tarife">Înapoi la site</a>
     </div>
   </header>
   <main class="admin-main">
@@ -21,12 +26,12 @@
       <p class="eyebrow">Panou de administrare</p>
       <h1>Editează <span>tarifele.</span></h1>
       <p class="admin-intro">Modificările se salvează în browserul acestui dispozitiv și se văd pe pagina Tarife deschisă în același browser.</p>
-      <div class="admin-warning"><strong>Important:</strong> Acesta este un prototip local, fără autentificare și fără salvare pe server. Oricine folosește browserul poate modifica tarifele; datele nu se sincronizează între dispozitive și pot fi șterse dacă se curăță datele browserului.</div>
-      <div class="admin-toolbar"><p id="admin-status" role="status" aria-live="polite"></p><div><button class="button button-outline" id="reset-prices" type="button">Restaurare valori arhivate</button><button class="button button-primary" id="save-prices" type="button">Salvează modificările</button></div></div>
-      <p class="admin-source">Valorile inițiale sunt preluate din captura arhivată a site-ului din 2025 și trebuie confirmate înainte de publicare.</p>
+      <div class="admin-warning"><strong>Important:</strong> Acest panou nu are autentificare și nu salvează pe server. Modificările nu se sincronizează între dispozitive și nu sunt vizibile vizitatorilor site-ului. Pentru a schimba tarifele pentru toată lumea, actualizați fișierul <code>data.js</code> și publicați site-ul.</div>
+      <div class="admin-toolbar"><p id="admin-status" role="status" aria-live="polite"></p><div><button class="button button-outline" id="reset-prices" type="button">Restaurează valorile inițiale</button><button class="button button-primary" id="save-prices" type="button">Salvează modificările</button></div></div>
+      <p class="admin-source">Valorile inițiale sunt cele din fișierul <code>data.js</code>.</p>
       <div id="admin-price-editor"></div>
     </div>
   </main>
-  <footer class="site-footer"><div class="container footer-inner"><a href="index.html">VitareiKineto</a><small>Panou demonstrativ de tarife</small></div></footer>
+  <footer class="site-footer"><div class="container footer-bottom"><a href="index.html">VitareiKineto</a><small>Panou intern de tarife</small></div></footer>
 </body>
 </html>

@@ -3,271 +3,538 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="VitareiKineto — centru de recuperare medicală în Cluj-Napoca. Kinetoterapie, fizioterapie, masaj și terapii complementare.">
-  <meta name="theme-color" content="#fbfaff">
-  <title>VitareiKineto — Centru de recuperare medicală</title>
+  <title>VitareiKineto — Kinetoterapie, fizioterapie și masaj în Cluj-Napoca</title>
+  <meta name="description" content="VitareiKineto, centru de recuperare medicală în Cluj-Napoca (Str. Alverna 77). Kinetoterapie, fizioterapie TECAR, masaj terapeutic, terapie Reiki și evaluare inițială personalizată.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://poparaul.github.io/vitareikineto/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:site_name" content="VitareiKineto">
+  <meta property="og:title" content="VitareiKineto — Centru de recuperare în Cluj-Napoca">
+  <meta property="og:description" content="Kinetoterapie, fizioterapie, masaj și terapii complementare, într-un spațiu dedicat recuperării. Programări: 0745 613 008.">
+  <meta property="og:url" content="https://poparaul.github.io/vitareikineto/">
+  <meta property="og:image" content="https://poparaul.github.io/vitareikineto/images/spatiu-04.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="images/vitareikineto-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physiotherapy",
+    "name": "VitareiKineto",
+    "description": "Centru de recuperare medicală: kinetoterapie, fizioterapie, masaj și terapii complementare.",
+    "url": "https://poparaul.github.io/vitareikineto/",
+    "image": "https://poparaul.github.io/vitareikineto/images/spatiu-04.jpg",
+    "telephone": ["+40745613008", "+40364882136"],
+    "email": "contact@vitareikineto.ro",
+    "priceRange": "50–1200 RON",
+    "currenciesAccepted": "RON",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Str. Alverna nr. 77",
+      "addressLocality": "Cluj-Napoca",
+      "addressRegion": "Cluj",
+      "addressCountry": "RO"
+    },
+    "employee": { "@type": "Person", "name": "Péterfi Csaba", "jobTitle": "Kinetoterapeut" }
+  }
+  </script>
   <script src="data.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-move" viewBox="0 0 24 24"><circle cx="13" cy="4" r="2"/><path d="m8 21 3-6 3 3v3M6 12l3-4 4 1 3 3 3 1M11 15l1-6"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M3 12h4l2-6 4 12 2-6h6"/></symbol>
+    <symbol id="i-hands" viewBox="0 0 24 24"><path d="M7 11V6a1.5 1.5 0 0 1 3 0v4M10 10V4.5a1.5 1.5 0 0 1 3 0V10M13 10V5.5a1.5 1.5 0 0 1 3 0V12M16 9.5a1.5 1.5 0 0 1 3 0V14a7 7 0 0 1-7 7h-1a6 6 0 0 1-5-2.7L3.3 14a1.6 1.6 0 0 1 2.6-1.8L7 13.5"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3c.5 4.5 2 6 6.5 6.5C14 10 12.5 11.5 12 16c-.5-4.5-2-6-6.5-6.5C10 9 11.5 7.5 12 3ZM18.5 15c.2 2 .8 2.6 2.5 2.8-1.7.2-2.3.8-2.5 2.7-.2-1.9-.8-2.5-2.5-2.7 1.7-.2 2.3-.8 2.5-2.8Z"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 11h6M9 15h4"/></symbol>
+    <symbol id="i-group" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3 20a6 6 0 0 1 12 0M15 14.5a4.5 4.5 0 0 1 6 4.3"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-8-4.7-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 9c0 6.3-8 11-8 11Z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 5 3 8.5 7 10 4-1.5 7-5 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C5 10 10 5 20 4c-1 10-6 15-15 15ZM5 19l7-7"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7M6 9.5V20h12V9.5M10 20v-5h4v5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-device" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M8 20h8M12 16v4M7 12l2-3 2 2 2-3 2 4"/></symbol>
+  </svg>
+
   <a class="skip-link" href="#continut">Sari la conținut</a>
-  <header class="site-header">
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span class="topbar-item"><svg class="icon"><use href="#i-pin"/></svg>Str. Alverna nr. 77, Cluj-Napoca</span>
+      <span class="topbar-item topbar-hide"><svg class="icon"><use href="#i-calendar"/></svg>Ședințe exclusiv pe bază de programare</span>
+      <a class="topbar-item" href="tel:+40745613008"><svg class="icon"><use href="#i-phone"/></svg>0745 613 008</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
     <div class="container header-inner">
       <a class="brand" href="#acasa" aria-label="VitareiKineto, pagina principală">
-        <span class="brand-mark"><img class="brand-symbol" src="images/vitareikineto-mark.svg" alt=""></span>
-        <span class="brand-name">vitarei<span>kineto</span><small>centru de recuperare</small></span>
+        <img class="brand-logo" src="images/vitareikineto-logo-horizontal.svg" alt="Vita ReiKineto" width="215" height="60">
       </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Meniu</button>
       <nav class="main-nav" id="main-nav" aria-label="Navigare principală">
-        <a href="#acasa">Acasă</a>
         <a href="#despre">Despre noi</a>
-        <a href="#metoda">Reik ineto</a>
         <a href="#servicii">Servicii</a>
+        <a href="#metoda">Metoda</a>
+        <a href="#echipa">Echipa</a>
         <a href="#tarife">Tarife</a>
         <a href="#galerie">Galerie</a>
-        <a href="#echipamente">Echipamente</a>
-        <a class="nav-contact" href="#contact">Contact</a>
+        <a href="#intrebari">Întrebări</a>
+        <a href="#contact">Contact</a>
+        <a class="button button-primary nav-cta" href="tel:+40745613008"><svg class="icon"><use href="#i-phone"/></svg>Programează-te</a>
       </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Deschide meniul">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
   <main id="continut">
-    <section class="hero section" id="acasa">
+
+    <!-- HERO -->
+    <section class="hero" id="acasa">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> Centru de recuperare · Cluj-Napoca</p>
-          <h1>Mișcare cu sens.<br><span>Stare de bine, pas cu pas.</span></h1>
-          <p class="hero-lead">Te însoțim cu grijă în drumul spre mobilitate și echilibru, prin terapii adaptate nevoilor tale.</p>
+          <p class="eyebrow"><span class="eyebrow-dot"></span>Centru de recuperare medicală · Cluj-Napoca</p>
+          <h1>Recuperare prin mișcare, <span>cu grijă și răbdare.</span></h1>
+          <p class="hero-lead">Kinetoterapie, fizioterapie, masaj și terapii complementare, într-un plan construit în jurul nevoilor tale — de la prima evaluare până la exercițiile pe care le faci acasă.</p>
           <div class="button-row">
-            <a class="button button-primary" href="#servicii">Descoperă serviciile <span aria-hidden="true">↗</span></a>
-            <a class="button button-quiet" href="tel:+40745613008">Sună pentru programare</a>
+            <a class="button button-primary button-lg" href="tel:+40745613008"><svg class="icon"><use href="#i-phone"/></svg>Sună pentru programare</a>
+            <a class="button button-outline button-lg" href="#servicii">Vezi serviciile<svg class="icon"><use href="#i-arrow"/></svg></a>
           </div>
-          <div class="hero-note"><span class="note-icon" aria-hidden="true">✳</span><span>Abordare personalizată, într-un spațiu dedicat recuperării.</span></div>
+          <ul class="hero-points">
+            <li><svg class="icon"><use href="#i-check"/></svg>Evaluare inițială personalizată</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Kinetoterapeut licențiat</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Abonamente avantajoase</li>
+          </ul>
         </div>
         <div class="hero-visual">
-          <img src="images/placeholder.svg?v=2" alt="Ilustrație abstractă despre mișcare și recuperare">
-          <div class="visual-caption"><span class="caption-icon" aria-hidden="true">✦</span><span><strong>Ritmul tău.</strong><br>Obiectivele tale.</span></div>
-        </div>
-      </div>
-      <div class="container hero-bottom">
-        <span>Îngrijire atentă, într-un cadru primitor</span><span class="hero-line"></span><span>Alverna 77 · Cluj-Napoca</span>
-      </div>
-    </section>
-
-    <section class="intro section section-soft" id="despre">
-      <div class="container intro-grid">
-        <div>
-          <p class="eyebrow">Despre VitareiKineto</p>
-          <h2>O abordare blândă,<br><span>centrată pe tine.</span></h2>
-        </div>
-        <div class="intro-copy">
-          <p>Mișcarea stă la baza întregii noastre existențe, iar o bună mobilitate ne face nu doar mai sănătoși și mai puternici, dar ne redă și încrederea în sine.</p>
-          <p>Vitareikineto este un centru terapeutic de restabilire a stării de bine, fie vorba de mobilitatea fizică sau de echilibrul emoțional, prin metode non-invazive și relaxante, care au ca scop creșterea calității vieții.</p>
-          <p>Credem că fiecare persoană merită un spațiu care oferă siguranță, confort și încredere, pentru a-și regăsi zâmbetul prin diferitele dimensiuni ale stării de bine.</p>
-          <p class="about-promise">Ne tratăm pacienții așa cum ne-am dori noi înșine să fim tratați!</p>
-          <div class="values-list" aria-label="Valorile centrului"><span>Cu respect</span><span>Cu onestitate</span><span>Cu încredere</span><span>Cu responsabilitate</span><span>Cu flexibilitate</span></div>
-          <a class="text-link" href="#echipa">Cunoaște echipa <span aria-hidden="true">→</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="trust section" aria-labelledby="trust-title">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">De ce noi</p>
-            <h2 id="trust-title">O experiență de<br><span>vindecare și echilibru.</span></h2>
+          <img src="images/spatiu-04.jpg" alt="Sala de kinetoterapie VitareiKineto, cu spaliere, bandă de alergat și saltele" width="1000" height="638" fetchpriority="high">
+          <div class="hero-card hero-card-top">
+            <span class="hero-card-icon"><svg class="icon"><use href="#i-shield"/></svg></span>
+            <span><strong>Metode non-invazive</strong><small>sigure și relaxante</small></span>
           </div>
-          <p>Fiecare pacient este întâmpinat cu răbdare, empatie și un plan clar, pentru a reveni la o stare de bine reală și durabilă.</p>
+          <div class="hero-card hero-card-bottom">
+            <span class="hero-card-icon hero-card-icon-purple"><svg class="icon"><use href="#i-heart"/></svg></span>
+            <span><strong>Ritmul tău, obiectivele tale</strong><small>plan adaptat fiecărui pacient</small></span>
+          </div>
         </div>
-        <div class="trust-grid">
-          <article class="trust-card">
-            <span class="trust-badge">01</span>
-            <h3>Abordare personalizată</h3>
-            <p>Planurile sunt adaptate nevoilor tale, nivelului de mobilitate și obiectivelor de recuperare.</p>
+      </div>
+      <div class="container">
+        <dl class="stats">
+          <div><dt>6</dt><dd>arii de terapie</dd></div>
+          <div><dt>30+</dt><dd>servicii și proceduri</dd></div>
+          <div><dt>11</dt><dd>echipamente de recuperare</dd></div>
+          <div><dt>1:1</dt><dd>atenție individuală</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- DESPRE -->
+    <section class="section section-soft" id="despre">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <img src="images/spatiu-03.jpg" alt="Zona de relaxare și așteptare din centrul VitareiKineto" loading="lazy" width="1000" height="638">
+          <img class="about-media-small" src="images/spatiu-08.jpg" alt="Cabinet de fizioterapie cu paturi de tratament" loading="lazy" width="500" height="215">
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">Despre VitareiKineto</p>
+          <h2>Un spațiu dedicat <span>stării tale de bine.</span></h2>
+          <p class="lead">Mișcarea stă la baza întregii noastre existențe. O bună mobilitate ne face mai sănătoși, mai puternici și ne redă încrederea în sine.</p>
+          <p>VitareiKineto este un centru terapeutic de restabilire a stării de bine — fie că vorbim de mobilitatea fizică sau de echilibrul emoțional — prin metode non-invazive și relaxante, care au ca scop creșterea calității vieții.</p>
+          <p>Credem că fiecare persoană merită un spațiu care oferă siguranță, confort și încredere, pentru a-și regăsi zâmbetul.</p>
+          <blockquote class="about-promise">„Ne tratăm pacienții așa cum ne-am dori noi înșine să fim tratați.”</blockquote>
+          <ul class="values-list" aria-label="Valorile centrului">
+            <li>Respect</li><li>Onestitate</li><li>Încredere</li><li>Responsabilitate</li><li>Flexibilitate</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- DE CE NOI -->
+    <section class="section" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-heading section-heading-center reveal">
+          <p class="eyebrow">De ce să ne alegi</p>
+          <h2 id="why-title">Recuperare atentă, <span>de la primul pas.</span></h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-icon"><svg class="icon"><use href="#i-clipboard"/></svg></span>
+            <h3>Plan personalizat</h3>
+            <p>Fiecare parcurs pornește de la o evaluare atentă a mobilității, a durerii și a obiectivelor tale.</p>
           </article>
-          <article class="trust-card">
-            <span class="trust-badge">02</span>
-            <h3>Recuperare integrată</h3>
-            <p>Combinăm terapiile potrivite pentru mobilitate, durere, relaxare și echilibru global.</p>
+          <article class="feature-card reveal">
+            <span class="feature-icon"><svg class="icon"><use href="#i-leaf"/></svg></span>
+            <h3>Abordare integrată</h3>
+            <p>Combinăm kinetoterapia, fizioterapia și masajul cu terapii complementare, pentru rezultate durabile.</p>
           </article>
-          <article class="trust-card">
-            <span class="trust-badge">03</span>
-            <h3>Atmosferă calmă</h3>
-            <p>Un mediu sigur, responsabil și liniștit, în care poți să te simți susținut de la primul pas.</p>
+          <article class="feature-card reveal">
+            <span class="feature-icon"><svg class="icon"><use href="#i-device"/></svg></span>
+            <h3>Echipamente moderne</h3>
+            <p>TECAR, electroterapie, magnetoterapie și o sală complet echipată pentru kinetoterapie.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-icon"><svg class="icon"><use href="#i-home"/></svg></span>
+            <h3>Exerciții pentru acasă</h3>
+            <p>Înveți exerciții pe care le poți continua acasă, ca progresul să nu se oprească după ședință.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="services section" id="servicii">
+    <!-- SERVICII -->
+    <section class="section section-soft" id="servicii">
       <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">Cu ce te putem ajuta</p><h2>Servicii pentru<br><span>starea ta de bine.</span></h2></div>
-          <p>Fiecare plan începe cu o discuție și o evaluare atentă, pentru a găsi împreună direcția potrivită.</p>
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Servicii</p>
+            <h2>Cu ce te <span>putem ajuta.</span></h2>
+          </div>
+          <p>Alege un serviciu pentru detalii. Dacă nu știi de unde să începi, evaluarea inițială te ajută să afli ce ți se potrivește.</p>
         </div>
         <div class="service-grid" id="service-grid"></div>
-        <div class="center-action"><a class="button button-outline" href="#tarife">Vezi lista de tarife <span aria-hidden="true">→</span></a></div>
       </div>
     </section>
 
-    <div class="service-modal" id="service-modal" hidden>
-      <div class="service-modal-backdrop" data-close="true" aria-hidden="true"></div>
-      <div class="service-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="service-modal-title">
-        <button class="service-modal-close" type="button" aria-label="Închide">×</button>
-        <div id="service-modal-content"></div>
-      </div>
-    </div>
-
-    <section class="method section section-dark" id="metoda">
-      <div class="container method-grid">
-        <div class="method-art"><img src="images/placeholder.svg?v=2" alt="Ilustrație abstractă despre echilibru și relaxare" loading="lazy"></div>
-        <div class="method-copy">
-          <p class="eyebrow eyebrow-light">Metoda Reik ineto</p>
-          <h2>Îngrijire care privește<br><span>întregul echilibru.</span></h2>
-          <p class="method-intro">Sănătate și echilibru! Bun venit la Centrul VitaReiKineto! Ți-am pregătit un loc deosebit unde echipa noastră te va ajuta să îți consolidezi echilibrul perfect corp-minte-spirit și să ajungi la starea de bine pe care ți-o dorești.</p>
-          <blockquote class="method-quote">„Cel mai greu lucru de păstrat e echilibrul.” <cite>— Jean Grenier</cite></blockquote>
-          <p>Nu pentru a sublinia dificultatea păstrării echilibrului, ci pentru a-ți oferi sprijin în acest sens. Chiar dacă te simți împlinit, dar parcă lipsește ceva… dacă crezi că ești fericit, dar cauți în continuare fericirea… sau dacă vrei pur și simplu să-ți menții sănătatea, îți oferim un procedeu care să-ți fie alături în atingerea stărilor la care aspiri.</p>
-          <p>Și iată vestea cea mai bună: majoritatea exercițiilor pe care le înveți la noi pe parcursul acestei metode le poți aplica și acasă!</p>
-          <div class="method-steps">
-            <article class="method-step"><span>Pasul 1</span><h3>Evaluarea inițială</h3><p>Dacă vrei să te bucuri de echilibru și sănătate de lungă durată, fă primul pas și programează-te la evaluarea inițială. Evaluarea inițială permite terapeuților noștri să personalizeze parcursul propus conform necesităților tale.</p><strong>Evaluarea inițială este primul pas important în stabilirea unui plan adecvat.</strong></article>
-            <article class="method-step"><span>Pasul 2</span><h3>Masaj terapeutic</h3><p>Masajul are rolul de a determina unele reacții vasculare, biochimice și de stimulare senzitivă, în scop profilactic, terapeutic sau recuperator. Acesta are importante beneficii pentru nenumărate afecțiuni.</p><p><strong>Durată:</strong> 2 săptămâni · <strong>Program:</strong> 6 ședințe de masaj terapeutic, câte 3 ședințe pe săptămână.</p></article>
-            <article class="method-step"><span>Pasul 3</span><h3>Fizioterapie</h3><p>Această etapă presupune folosirea terapiei TECAR, un tip de terapie noninvazivă: Transfer Energetic Capacitiv și Rezistiv. Produce o senzație plăcută de căldură prin transferul curentului electromagnetic de înaltă frecvență prin țesuturile corpului.</p><p><strong>Durată:</strong> 2 săptămâni · <strong>Program:</strong> 5 ședințe de terapie TECAR — 3 ședințe în prima săptămână și 2 în a doua săptămână.</p></article>
-            <article class="method-step"><span>Pasul 4</span><h3>Kinetoterapie</h3><p>Ne axăm pe terapia prin mișcare pentru a-ți îmbunătăți rezistența, mobilitatea și forța, prin programe structurate, adecvate vârstei, stării de sănătate și obiectivelor urmărite.</p><p><strong>Durată:</strong> 2 săptămâni · <strong>Program:</strong> 5 ședințe — 3 ședințe în prima săptămână și 2 în a doua săptămână.</p></article>
-            <article class="method-step"><span>Pasul 5</span><h3>Meditație și detoxifiere</h3><p>Urmărim relaxarea prin meditație și detoxifierea organismului. Ședințele de meditație te ajută să îți consolidezi starea de echilibru; în paralel, vei primi sfaturi pentru o nutriție sănătoasă și pentru detoxifierea organismului.</p><p><strong>Durată:</strong> 2 săptămâni · <strong>Program:</strong> 4 ședințe, câte 2 ședințe pe săptămână.</p></article>
-            <article class="method-step"><span>Pasul 6</span><h3>Terapia Reiki</h3><p>Reiki este o metodă de tratament energetic, născută din practica și experiența maeștrilor japonezi. Conform terapiei Reiki, sănătatea unei persoane este legată în mod direct de echilibrul ei energetic.</p><p><strong>Durată:</strong> 4 săptămâni · <strong>Program:</strong> 8 ședințe, câte 2 ședințe pe săptămână.</p></article>
-          </div>
-          <p>Pe tot parcursul metodei, terapeuții noștri te vor ghida pentru a-ți consolida starea de sănătate și echilibru, într-o atmosferă de calm și siguranță. Chiar după primele ședințe, mulți pacienți observă o îmbunătățire a mobilității, a senzației de confort și a stării generale.</p>
-          <div class="method-price"><span>Plan de recuperare</span><strong>Personalizat după nevoi</strong><small>Programul și tariful se stabilesc în funcție de obiectivele tale și de tipul de terapie recomandat.</small></div>
-          <p class="small-note">Abordarea noastră este complementară și nu înlocuiește consultul, diagnosticul sau tratamentul recomandat de un specialist.</p>
-          <a class="button button-light" href="#contact">Doresc evaluarea inițială <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="team section" id="echipa">
+    <!-- CUM DECURGE -->
+    <section class="section" aria-labelledby="process-title">
       <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">Oameni dedicați</p><h2>Îți suntem<br><span>alături.</span></h2></div>
-          <p>În centrul nostru lucrăm cu o echipă dedicată, cu experiență în kinetoterapie și în abordarea individualizată a fiecărui pacient.</p>
+        <div class="section-heading section-heading-center reveal">
+          <p class="eyebrow">Cum decurge</p>
+          <h2 id="process-title">Patru pași simpli <span>spre recuperare.</span></h2>
         </div>
-        <div class="team-grid">
-          <article class="team-card"><div class="team-avatar avatar-one" aria-hidden="true">PC</div><div><h3>Péterfi Csaba</h3><p>Kinetoterapeut</p><div class="team-bio"><p>A absolvit specializarea de licență Kinetoterapie și motricitate specială și masteratul Kinetoterapie în afecțiunile aparatului locomotor la Facultatea de Educație Fizică și Sport, Universitatea Babeș-Bolyai.</p><p>În activitatea sa, a dezvoltat o abordare integrată în terapiile complementare:</p><ul><li>Reiki: Tradițional, Gendai, Karuna, Kundalini, Shambala, Cristal-Reiki și Amadeus</li><li>Medicină budist-tibetană</li><li>Cristaloterapie</li><li>Vindecare pranică</li></ul><p>Experiența dobândită în ambele domenii îi permite să abordeze fiecare pacient în mod personal și să ofere soluții de recuperare eficiente, cu efecte pe termen lung.</p></div></div></article>
-        </div>
+        <ol class="process">
+          <li class="reveal"><span class="process-num">1</span><h3>Programare</h3><p>Ne suni și stabilim împreună ziua și ora potrivite pentru tine.</p></li>
+          <li class="reveal"><span class="process-num">2</span><h3>Evaluare inițială</h3><p>Discutăm istoricul, simptomele și obiectivele, apoi evaluăm postura și mobilitatea.</p></li>
+          <li class="reveal"><span class="process-num">3</span><h3>Plan de terapie</h3><p>Primești recomandarea de terapii, numărul de ședințe și tariful estimat.</p></li>
+          <li class="reveal"><span class="process-num">4</span><h3>Terapie și progres</h3><p>Lucrăm împreună, urmărim progresul și îți dăm exerciții pentru acasă.</p></li>
+        </ol>
       </div>
     </section>
 
-    <section class="pricing section section-soft" id="tarife">
+    <!-- METODA -->
+    <section class="section section-dark" id="metoda">
       <div class="container">
-        <div class="section-heading pricing-heading">
-          <div><p class="eyebrow">Tarife</p><h2>Prețuri clare,<br><span>alegeri informate.</span></h2></div>
-          <p>Prețurile noastre sunt revizuite periodic, pentru ca tu să poți alege cu încredere un plan potrivit nevoilor tale.</p>
-        </div>
-        <div id="pricing-list" class="pricing-list" aria-live="polite"></div>
-        <div class="pricing-footer"><span>Prețurile pot fi confirmate telefonic.</span><a class="text-link" href="tel:+40745613008">Sună: 0745 613 008 <span aria-hidden="true">→</span></a></div>
-      </div>
-    </section>
-
-    <section class="gallery section" id="galerie">
-      <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">Galerie</p><h2>Universul<br><span>Vitareikineto.</span></h2></div>
-          <p>Fotografii ale spațiului, echipamentelor și activităților de recuperare de la VitareiKineto.</p>
-        </div>
-        <div class="gallery-grid">
-          <figure class="gallery-item gallery-large"><img src="images/gallery-01.jpg" alt="Fotografie 1 din galeria centrului VitareiKineto" loading="lazy"><figcaption>VitareiKineto <small>Galerie foto</small></figcaption></figure>
-          <figure class="gallery-item"><img src="images/gallery-02.jpg" alt="Fotografie 2 din galeria centrului VitareiKineto" loading="lazy"><figcaption>VitareiKineto <small>Galerie foto</small></figcaption></figure>
-          <figure class="gallery-item"><img src="images/gallery-03.jpg" alt="Fotografie 3 din galeria centrului VitareiKineto" loading="lazy"><figcaption>VitareiKineto <small>Galerie foto</small></figcaption></figure>
-          <figure class="gallery-item"><img src="images/gallery-04.jpg" alt="Fotografie 4 din galeria centrului VitareiKineto" loading="lazy"><figcaption>VitareiKineto <small>Galerie foto</small></figcaption></figure>
-          <figure class="gallery-item"><img src="images/gallery-05.jpg" alt="Fotografie 5 din galeria centrului VitareiKineto" loading="lazy"><figcaption>VitareiKineto <small>Galerie foto</small></figcaption></figure>
-          <figure class="gallery-item"><img src="images/gallery-06.jpg" alt="Fotografie 6 din galeria centrului VitareiKineto" loading="lazy"><figcaption>VitareiKineto <small>Galerie foto</small></figcaption></figure>
-          <figure class="gallery-item"><img src="images/gallery-07.jpg" alt="Fotografie 7 din galeria centrului VitareiKineto" loading="lazy"><figcaption>VitareiKineto <small>Galerie foto</small></figcaption></figure>
-          <figure class="gallery-item"><img src="images/gallery-08.jpg" alt="Fotografie 8 din galeria centrului VitareiKineto" loading="lazy"><figcaption>VitareiKineto <small>Galerie foto</small></figcaption></figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="equipment section section-soft" id="echipamente">
-      <div class="container equipment-grid">
-        <div><p class="eyebrow">Echipamente</p><h2>Sprijin pentru<br><span>recuperarea ta.</span></h2></div>
-        <div class="equipment-copy">
-        <p>Echipamentele noastre sunt alese pentru a sprijini terapiile moderne și recuperarea funcțională, în condiții sigure și personalizate.</p>
-        <div class="equipment-photo-grid" aria-label="Echipamentele centrului">
-          <figure class="equipment-photo"><img src="images/equipment-tecar.svg" alt="Aparat de fizioterapie TECAR" loading="lazy"><figcaption>Aparat de fizioterapie</figcaption></figure>
-          <figure class="equipment-photo"><img src="images/equipment-tens.svg" alt="Aparat digital TENS" loading="lazy"><figcaption>Aparat TENS</figcaption></figure>
-          <figure class="equipment-photo"><img src="images/equipment-bike.svg" alt="Bicicletă staționară pentru recuperare" loading="lazy"><figcaption>Bicicletă staționară</figcaption></figure>
-          <figure class="equipment-photo"><img src="images/equipment-mat.svg" alt="Saltea de terapie pentru magnetoterapie" loading="lazy"><figcaption>Saltea de terapie</figcaption></figure>
-        </div>
-        <div class="equipment-list">
-          <article class="equipment-item"><h3>F38 — Aparat fizioterapie diadinamic</h3><p>Tehnologie utilizată pentru terapia bioelectrică, acupresură, masaj, termoterapie și stimularea cu câmp magnetic, în funcție de protocolul recomandat.</p></article>
-          <article class="equipment-item"><h3>TENS — aparat de electrostimulare</h3><p>Aparat digital care utilizează impulsuri electrice joase la frecvențe diferite pentru stimularea musculară și ameliorarea senzației de durere.</p></article>
-          <article class="equipment-item"><h3>Terapie TECAR</h3><p>Metodă modernă de recuperare bazată pe conversia energiei electromagnetice în căldură aplicată la nivelul țesuturilor, pentru relaxare, reducerea edemului și ameliorarea durerii.</p></article>
-          <article class="equipment-item"><h3>Orteză suport cervical</h3><p>Dispozitiv de susținere pentru zona cervicală, utilizat pentru menținerea unei poziții corecte și diminuarea disconfortului în cazul tensiunilor din coloană.</p></article>
-          <article class="equipment-item"><h3>Corset lombar ATB</h3><p>Solutie de susținere pentru zona lombară, recomandată în anumite situații de tensiune, durere sau spasm muscular, în funcție de evaluarea terapeutului.</p></article>
-          <article class="equipment-item"><h3>Aparatul MAGCELL</h3><p>Aparat de magnetoterapie cu câmp magnetic pulsatil, folosit în terapii complementare pentru relaxare și restabilirea echilibrului sistemului nervos și muscular.</p></article>
-          <article class="equipment-item"><h3>ELIXOR — saltea pentru magnetoterapie pulsatilă</h3><p>Saltea terapeutică cu intensitate reglabilă și setări multiple, destinată aplicării terapiilor de relaxare și regenerare generală.</p></article>
-          <article class="equipment-item"><h3>Lampe CRYXON și Orgon cu cristale</h3><p>Dispozitive de terapie cu lumină și energie, folosite pentru relaxare și susținerea unui proces de regenerare subtilă.</p></article>
-          <article class="equipment-item"><h3>DHS 2615 — bicicletă staționară</h3><p>Echipament de impact redus, potrivit pentru activități de recuperare, tonifiere și susținerea sistemului cardiovascular.</p></article>
-          <article class="equipment-item"><h3>DHS 2632 — bicicletă specială cu spătar</h3><p>Variantă adaptată pentru o poziție mai confortabilă și pentru reducerea solicitării zonei lombare în timpul exercițiilor.</p></article>
-          <article class="equipment-item"><h3>DHS 8451 — bandă de alergat</h3><p>Echipament folosit în kinetoterapie pentru recuperare locomotorie, susținerea tonusului muscular și menținerea unei activități fizice controlate.</p></article>
-        </div>
-        <p class="small-note">Indicațiile, contraindicațiile și disponibilitatea se verifică împreună cu medicul sau terapeutul și cu centrul.</p></div>
-      </div>
-    </section>
-
-    <section class="testimonials section" aria-labelledby="testimonials-title">
-      <div class="container">
-        <div class="section-heading">
+        <div class="method-head reveal">
           <div>
-            <p class="eyebrow">Experiențe</p>
-            <h2 id="testimonials-title">Ce spun<br><span>pacienții noștri.</span></h2>
+            <p class="eyebrow eyebrow-light">Metoda VitaReiKineto</p>
+            <h2>Echilibru între <span>corp, minte și spirit.</span></h2>
           </div>
-          <p>Abordarea noastră este blândă, atentă și personalizată, pentru ca fiecare persoană să se simtă în siguranță și susținută.</p>
+          <div class="method-intro">
+            <p>Un program complet, în șase etape, care îmbină terapiile fizice cu cele de relaxare și echilibrare. Majoritatea exercițiilor pe care le înveți pe parcursul metodei le poți aplica și acasă.</p>
+            <blockquote class="method-quote">„Cel mai greu lucru de păstrat e echilibrul.” <cite>— Jean Grenier</cite></blockquote>
+          </div>
         </div>
-        <div class="testimonial-grid">
-          <article class="testimonial-card">
-            <p>„Am început terapia pentru dureri lombare și am observat o diferență reală după primele săptămâni. Mi s-a oferit un plan clar, calm și eficient.”</p>
-            <div class="testimonial-meta"><strong>Andreea M.</strong><span>Pacientă</span></div>
-          </article>
-          <article class="testimonial-card">
-            <p>„Atmosfera este calmă, foarte primitoare. M-am simțit în siguranță și am văzut îmbunătățiri la mobilitate și la starea generală.”</p>
-            <div class="testimonial-meta"><strong>Daniel S.</strong><span>Pacient</span></div>
-          </article>
-          <article class="testimonial-card">
-            <p>„Privirea este atentă, iar terapia este adaptată nevoilor mele. A fost un pas bun spre recuperare și pentru revenirea la o viață mai activă.”</p>
-            <div class="testimonial-meta"><strong>Corina T.</strong><span>Pacientă</span></div>
-          </article>
+        <ol class="method-steps">
+          <li class="method-step reveal"><span class="method-step-num">01</span><h3>Evaluare inițială</h3><p>Permite terapeuților să personalizeze parcursul conform necesităților tale.</p><p class="method-meta">Primul pas, obligatoriu</p></li>
+          <li class="method-step reveal"><span class="method-step-num">02</span><h3>Masaj terapeutic</h3><p>Determină reacții vasculare, biochimice și de stimulare senzitivă, în scop terapeutic și recuperator.</p><p class="method-meta">2 săptămâni · 6 ședințe</p></li>
+          <li class="method-step reveal"><span class="method-step-num">03</span><h3>Fizioterapie TECAR</h3><p>Terapie noninvazivă prin transfer energetic capacitiv și rezistiv, cu o senzație plăcută de căldură.</p><p class="method-meta">2 săptămâni · 5 ședințe</p></li>
+          <li class="method-step reveal"><span class="method-step-num">04</span><h3>Kinetoterapie</h3><p>Programe structurate pentru rezistență, mobilitate și forță, adaptate vârstei și obiectivelor.</p><p class="method-meta">2 săptămâni · 5 ședințe</p></li>
+          <li class="method-step reveal"><span class="method-step-num">05</span><h3>Meditație și detoxifiere</h3><p>Ședințe de meditație pentru consolidarea echilibrului, plus sfaturi de nutriție sănătoasă.</p><p class="method-meta">2 săptămâni · 4 ședințe</p></li>
+          <li class="method-step reveal"><span class="method-step-num">06</span><h3>Terapie Reiki</h3><p>Metodă japoneză de echilibrare energetică, pentru relaxare profundă și stare de bine.</p><p class="method-meta">4 săptămâni · 8 ședințe</p></li>
+        </ol>
+        <div class="method-foot reveal">
+          <p>Programul și tariful se stabilesc după evaluarea inițială, în funcție de obiectivele tale. Abordarea noastră este complementară și nu înlocuiește consultul, diagnosticul sau tratamentul recomandat de medicul specialist.</p>
+          <a class="button button-light button-lg" href="tel:+40745613008"><svg class="icon"><use href="#i-calendar"/></svg>Programează evaluarea</a>
         </div>
       </div>
     </section>
 
-    <section class="contact section" id="contact">
+    <!-- ECHIPA -->
+    <section class="section" id="echipa">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Echipa</p>
+            <h2>Oameni dedicați, <span>alături de tine.</span></h2>
+          </div>
+          <p>Lucrăm cu răbdare și empatie, cu experiență în kinetoterapie și în terapiile complementare.</p>
+        </div>
+        <article class="team-card reveal">
+          <div class="team-avatar" aria-hidden="true">PC</div>
+          <div class="team-body">
+            <h3>Péterfi Csaba</h3>
+            <p class="team-role">Kinetoterapeut · Terapeut Reiki</p>
+            <p>Absolvent al specializării de licență <strong>Kinetoterapie și motricitate specială</strong> și al masteratului <strong>Kinetoterapie în afecțiunile aparatului locomotor</strong>, la Facultatea de Educație Fizică și Sport a Universității Babeș-Bolyai din Cluj-Napoca.</p>
+            <p>A dezvoltat o abordare integrată, completând kinetoterapia cu terapii complementare. Experiența din ambele domenii îi permite să abordeze fiecare pacient în mod personal și să ofere soluții de recuperare cu efecte pe termen lung.</p>
+            <ul class="chip-list">
+              <li>Reiki: Tradițional, Gendai, Karuna, Kundalini, Shambala, Cristal-Reiki, Amadeus</li>
+              <li>Medicină budist-tibetană</li>
+              <li>Cristaloterapie</li>
+              <li>Vindecare pranică</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TARIFE -->
+    <section class="section section-soft" id="tarife">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Tarife</p>
+            <h2>Prețuri clare, <span>fără surprize.</span></h2>
+          </div>
+          <p>Toate tarifele sunt exprimate în lei. Pentru un plan complet de terapie, abonamentele sunt varianta cea mai avantajoasă.</p>
+        </div>
+        <div class="pricing reveal">
+          <div class="pricing-tabs" id="pricing-tabs" role="tablist" aria-label="Categorii de tarife"></div>
+          <div id="pricing-list" class="pricing-list" aria-live="polite"></div>
+        </div>
+        <p class="pricing-footer">Tarifele pot fi actualizate periodic — confirmă prețul la programare: <a href="tel:+40745613008">0745 613 008</a>.</p>
+      </div>
+    </section>
+
+    <!-- GALERIE -->
+    <section class="section" id="galerie">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Galerie</p>
+            <h2>Spațiul <span>VitareiKineto.</span></h2>
+          </div>
+          <p>Sala de kinetoterapie, cabinetele de fizioterapie și masaj și zona de relaxare a centrului.</p>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <button class="gallery-item gallery-wide" type="button"><img src="images/spatiu-05.jpg" alt="Vedere de ansamblu asupra sălii de kinetoterapie" loading="lazy"><span>Sala de kinetoterapie</span></button>
+          <button class="gallery-item" type="button"><img src="images/spatiu-04.jpg" alt="Spaliere, scară fixă și aparate de exerciții" loading="lazy"><span>Zona de exerciții</span></button>
+          <button class="gallery-item gallery-tall" type="button"><img src="images/spatiu-07.jpg" alt="Cabinet de tratament cu pat și aparatură de fizioterapie" loading="lazy"><span>Cabinet de tratament</span></button>
+          <button class="gallery-item" type="button"><img src="images/spatiu-06.jpg" alt="Sală de kinetoterapie cu mingi, biciclete și saltele" loading="lazy"><span>Echipamente</span></button>
+          <button class="gallery-item" type="button"><img src="images/spatiu-08.jpg" alt="Cabinet de fizioterapie cu două paturi" loading="lazy"><span>Fizioterapie</span></button>
+          <button class="gallery-item gallery-wide" type="button"><img src="images/spatiu-02.jpg" alt="Recepția și zona de așteptare" loading="lazy"><span>Recepție</span></button>
+          <button class="gallery-item" type="button"><img src="images/spatiu-03.jpg" alt="Zona de relaxare cu fotolii" loading="lazy"><span>Zona de relaxare</span></button>
+          <button class="gallery-item gallery-wide" type="button"><img src="images/spatiu-01.jpg" alt="Spațiul principal al centrului" loading="lazy"><span>Spațiul central</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ECHIPAMENTE -->
+    <section class="section section-soft" id="echipamente">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Echipamente</p>
+            <h2>Tehnologie în sprijinul <span>recuperării.</span></h2>
+          </div>
+          <p>Aparatură aleasă pentru terapii moderne și recuperare funcțională, folosită în condiții sigure, conform protocolului stabilit de terapeut.</p>
+        </div>
+        <div class="equipment-groups">
+          <article class="equipment-group reveal">
+            <h3><svg class="icon"><use href="#i-pulse"/></svg>Fizioterapie</h3>
+            <ul>
+              <li><strong>Terapie TECAR</strong><span>Energie electromagnetică transformată în căldură în profunzimea țesuturilor — relaxare, reducerea edemului, ameliorarea durerii.</span></li>
+              <li><strong>F38 — aparat diadinamic</strong><span>Terapie bioelectrică, acupresură, termoterapie și stimulare cu câmp magnetic.</span></li>
+              <li><strong>TENS — electrostimulare</strong><span>Impulsuri electrice de joasă frecvență pentru stimulare musculară și ameliorarea durerii.</span></li>
+            </ul>
+          </article>
+          <article class="equipment-group reveal">
+            <h3><svg class="icon"><use href="#i-spark"/></svg>Magnetoterapie și lumină</h3>
+            <ul>
+              <li><strong>MAGCELL</strong><span>Magnetoterapie cu câmp magnetic pulsatil, pentru relaxare și echilibrarea sistemului neuromuscular.</span></li>
+              <li><strong>ELIXOR — saltea pulsatilă</strong><span>Intensitate reglabilă și setări multiple, pentru relaxare și regenerare generală.</span></li>
+              <li><strong>Lămpi CRYXON și Orgon</strong><span>Terapie cu lumină și cristale, pentru relaxare.</span></li>
+            </ul>
+          </article>
+          <article class="equipment-group reveal">
+            <h3><svg class="icon"><use href="#i-move"/></svg>Kinetoterapie</h3>
+            <ul>
+              <li><strong>DHS 8451 — bandă de alergat</strong><span>Recuperare locomotorie și activitate fizică controlată.</span></li>
+              <li><strong>DHS 2615 — bicicletă staționară</strong><span>Impact redus, pentru tonifiere și susținere cardiovasculară.</span></li>
+              <li><strong>DHS 2632 — bicicletă cu spătar</strong><span>Poziție confortabilă, cu solicitare redusă a zonei lombare.</span></li>
+            </ul>
+          </article>
+          <article class="equipment-group reveal">
+            <h3><svg class="icon"><use href="#i-shield"/></svg>Ortezare și suport</h3>
+            <ul>
+              <li><strong>Orteză suport cervical</strong><span>Menținerea unei poziții corecte și diminuarea disconfortului cervical.</span></li>
+              <li><strong>Corset lombar ATB</strong><span>Susținere lombară în situații de tensiune, durere sau spasm muscular.</span></li>
+              <li><strong>Kinesio taping</strong><span>Benzi elastice aplicate pentru susținerea mușchilor și articulațiilor.</span></li>
+            </ul>
+          </article>
+        </div>
+        <p class="small-note">Indicațiile și contraindicațiile fiecărei terapii se stabilesc la evaluare, împreună cu terapeutul.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="intrebari">
+      <div class="container faq-grid">
+        <div class="reveal">
+          <p class="eyebrow">Întrebări frecvente</p>
+          <h2>Ai întrebări? <span>Avem răspunsuri.</span></h2>
+          <p class="faq-lead">Nu ai găsit ce căutai? Sună-ne și îți răspundem cu drag.</p>
+          <a class="button button-outline" href="tel:+40745613008"><svg class="icon"><use href="#i-phone"/></svg>0745 613 008</a>
+        </div>
+        <div class="faq-list reveal">
+          <details class="faq-item" open>
+            <summary>Cum fac o programare?</summary>
+            <p>Cel mai simplu este să ne suni la <a href="tel:+40745613008">0745 613 008</a> sau <a href="tel:+40364882136">0364 882 136</a>. Ne poți scrie și pe e-mail sau prin formularul de contact, iar noi revenim cu o propunere de programare.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Cu ce serviciu ar trebui să încep?</summary>
+            <p>Recomandăm evaluarea inițială. Pe baza ei, terapeutul îți propune combinația potrivită de terapii și numărul de ședințe necesare.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Ce trebuie să aduc la prima ședință?</summary>
+            <p>Haine comode, în care te poți mișca ușor, și — dacă le ai — investigațiile medicale recente (radiografii, RMN, scrisori medicale) sau recomandarea medicului.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Cât durează o ședință?</summary>
+            <p>Între 20 și 60 de minute, în funcție de terapie. Durata fiecărui serviciu este afișată în <a href="#tarife">lista de tarife</a>.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Oferiți abonamente?</summary>
+            <p>Da. Avem abonamente pentru masaj (5 + 1 ședință gratuită), kinetoterapie de întreținere și pachete combinate kinetoterapie + masaj.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Lucrați și cu copii sau cu gravide?</summary>
+            <p>Da. Oferim kinetoterapie pentru copii, gimnastică pentru nou-născuți, gimnastică pentru gravide și masaj prenatal.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-soft" id="contact">
       <div class="container contact-grid">
-        <div class="contact-copy"><p class="eyebrow">Contact</p><h2>Primul pas începe<br><span>cu o conversație.</span></h2><p>Ai întrebări sau vrei să afli ce serviciu ți se potrivește? Suntem aici să te ajutăm.</p>
-          <div class="contact-details">
-            <div><span class="detail-icon" aria-hidden="true">⌖</span><p><strong>Ne găsești</strong><br><a href="https://maps.google.com/?q=Strada+Alverna+77+Cluj-Napoca" target="_blank" rel="noreferrer">Str. Alverna, nr. 77<br>Cluj-Napoca</a></p></div>
-            <div><span class="detail-icon" aria-hidden="true">↗</span><p><strong>Sună-ne</strong><br><a href="tel:+40745613008">0745 613 008</a><br><a href="tel:+40364882136">0364 882 136</a></p></div>
-            <div><span class="detail-icon" aria-hidden="true">@</span><p><strong>Scrie-ne</strong><br><a href="mailto:contact@vitareikineto.ro">contact@vitareikineto.ro</a></p></div>
+        <div class="contact-info reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Primul pas începe <span>cu o conversație.</span></h2>
+          <p class="lead">Ai întrebări sau vrei să afli ce terapie ți se potrivește? Suntem aici să te ajutăm.</p>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-icon"><svg class="icon"><use href="#i-phone"/></svg></span>
+              <span><small>Telefon</small><a href="tel:+40745613008">0745 613 008</a> · <a href="tel:+40364882136">0364 882 136</a></span>
+            </li>
+            <li>
+              <span class="contact-icon"><svg class="icon"><use href="#i-mail"/></svg></span>
+              <span><small>E-mail</small><a href="mailto:contact@vitareikineto.ro">contact@vitareikineto.ro</a></span>
+            </li>
+            <li>
+              <span class="contact-icon"><svg class="icon"><use href="#i-pin"/></svg></span>
+              <span><small>Adresă</small><a href="https://maps.google.com/?q=Strada+Alverna+77+Cluj-Napoca" target="_blank" rel="noopener">Str. Alverna nr. 77, Cluj-Napoca</a></span>
+            </li>
+            <li>
+              <span class="contact-icon"><svg class="icon"><use href="#i-calendar"/></svg></span>
+              <span><small>Program</small>Ședințe exclusiv pe bază de programare</span>
+            </li>
+          </ul>
+          <div class="map">
+            <iframe title="Hartă: VitareiKineto, Str. Alverna 77, Cluj-Napoca" src="https://www.google.com/maps?q=Strada%20Alverna%2077%2C%20Cluj-Napoca&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
-        <form class="contact-form" id="contact-form">
+        <form class="contact-form reveal" id="contact-form" novalidate>
           <h3>Trimite-ne un mesaj</h3>
-          <p>Se va deschide aplicația de e-mail cu mesajul completat.</p>
-          <label for="contact-name">Numele tău</label><input id="contact-name" name="name" autocomplete="name" required>
-          <label for="contact-email">Adresa de e-mail</label><input id="contact-email" name="email" type="email" autocomplete="email" required>
-          <label for="contact-subject">Subiect</label><input id="contact-subject" name="subject" required>
-          <label for="contact-message">Mesaj</label><textarea id="contact-message" name="message" rows="4" required></textarea>
-          <button class="button button-primary" type="submit">Pregătește mesajul <span aria-hidden="true">↗</span></button>
-          <p class="form-status" id="form-status" aria-live="polite"></p>
+          <p class="form-intro">Completează formularul și îți vom răspunde cât mai curând.</p>
+          <div class="form-row">
+            <div class="field"><label for="contact-name">Nume și prenume</label><input id="contact-name" name="name" autocomplete="name" required></div>
+            <div class="field"><label for="contact-phone">Telefon</label><input id="contact-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
+          </div>
+          <div class="field"><label for="contact-email">E-mail</label><input id="contact-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field">
+            <label for="contact-subject">Serviciul dorit</label>
+            <select id="contact-subject" name="subject">
+              <option>Evaluare inițială</option>
+              <option>Kinetoterapie</option>
+              <option>Fizioterapie</option>
+              <option>Masaj</option>
+              <option>Terapie Reiki</option>
+              <option>Metoda VitaReiKineto</option>
+              <option>Altă întrebare</option>
+            </select>
+          </div>
+          <div class="field"><label for="contact-message">Mesaj</label><textarea id="contact-message" name="message" rows="4" required placeholder="Spune-ne pe scurt cu ce te putem ajuta…"></textarea></div>
+          <label class="consent"><input type="checkbox" name="consent" required> <span>Sunt de acord cu prelucrarea datelor conform <a href="confidentialitate.html">Politicii de confidențialitate</a>.</span></label>
+          <button class="button button-primary button-lg button-block" type="submit">Trimite mesajul<svg class="icon"><use href="#i-arrow"/></svg></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner"><a class="brand footer-brand" href="#acasa"><span class="brand-mark"><img class="brand-symbol" src="images/vitareikineto-mark.svg" alt=""></span><span class="brand-name">vitarei<span>kineto</span><small>centru de recuperare</small></span></a><p>Str. Alverna 77, Cluj-Napoca · <a href="tel:+40745613008">0745 613 008</a></p><a class="footer-admin" href="admin.html">Administrare tarife</a><small>© <span id="year"></span> VitareiKineto</small></div>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="#acasa" aria-label="Vita ReiKineto, pagina principală"><img src="images/vitareikineto-logo.svg" alt="Logo Vita ReiKineto" width="150" height="143"></a>
+        <p>Centru de recuperare medicală în Cluj-Napoca. Kinetoterapie, fizioterapie, masaj și terapii complementare, cu grijă pentru fiecare pacient.</p>
+      </div>
+      <div>
+        <h4>Navigare</h4>
+        <ul>
+          <li><a href="#despre">Despre noi</a></li>
+          <li><a href="#metoda">Metoda VitaReiKineto</a></li>
+          <li><a href="#echipa">Echipa</a></li>
+          <li><a href="#tarife">Tarife</a></li>
+          <li><a href="#intrebari">Întrebări frecvente</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Servicii</h4>
+        <ul>
+          <li><a href="#servicii">Kinetoterapie</a></li>
+          <li><a href="#servicii">Fizioterapie</a></li>
+          <li><a href="#servicii">Masaj</a></li>
+          <li><a href="#servicii">Terapie Reiki</a></li>
+          <li><a href="#servicii">Evaluare inițială</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Str. Alverna nr. 77, Cluj-Napoca</li>
+          <li><a href="tel:+40745613008">0745 613 008</a></li>
+          <li><a href="tel:+40364882136">0364 882 136</a></li>
+          <li><a href="mailto:contact@vitareikineto.ro">contact@vitareikineto.ro</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year">2026</span> VitareiKineto. Toate drepturile rezervate.</small>
+      <nav aria-label="Informații legale">
+        <a href="confidentialitate.html">Confidențialitate</a>
+        <a href="https://anpc.ro/" target="_blank" rel="noopener">ANPC</a>
+        <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">SAL</a>
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">SOL</a>
+      </nav>
+    </div>
   </footer>
+
+  <a class="mobile-call" href="tel:+40745613008" aria-label="Sună pentru programare: 0745 613 008"><svg class="icon"><use href="#i-phone"/></svg><span>Sună acum</span></a>
+
+  <dialog class="modal" id="service-modal" aria-labelledby="service-modal-title">
+    <div class="modal-head">
+      <span class="modal-icon" id="service-modal-icon"></span>
+      <h3 id="service-modal-title"></h3>
+      <button class="modal-close" type="button" data-close aria-label="Închide"><svg class="icon"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="modal-body" id="service-modal-body"></div>
+    <div class="modal-foot">
+      <a class="button button-primary" href="tel:+40745613008"><svg class="icon"><use href="#i-phone"/></svg>Programează-te</a>
+      <a class="button button-outline" href="#tarife" data-close>Vezi tarifele</a>
+    </div>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Galerie foto">
+    <button class="lightbox-btn lightbox-close" type="button" data-close aria-label="Închide"><svg class="icon"><use href="#i-close"/></svg></button>
+    <button class="lightbox-btn lightbox-prev" type="button" aria-label="Fotografia anterioară"><svg class="icon"><use href="#i-chev-l"/></svg></button>
+    <figure><img id="lightbox-img" src="" alt=""><figcaption id="lightbox-caption"></figcaption></figure>
+    <button class="lightbox-btn lightbox-next" type="button" aria-label="Fotografia următoare"><svg class="icon"><use href="#i-chev-r"/></svg></button>
+  </dialog>
 </body>
 </html>

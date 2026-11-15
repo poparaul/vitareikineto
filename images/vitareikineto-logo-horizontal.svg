@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 184" role="img" aria-labelledby="t">
+  <title id="t">Vita ReiKineto</title>
+  <g transform="translate(-20 -8)">
+    <path d="M50 165A92 92 0 1 1 190 165" fill="none" stroke="#1f8a4c" stroke-width="9" stroke-linecap="round"/>
+    <g fill="#5b2d8e">
+      <circle cx="120" cy="36" r="9"/>
+      <circle cx="90.4" cy="42" r="7"/><circle cx="149.6" cy="42" r="7"/>
+      <circle cx="66.4" cy="60" r="5.6"/><circle cx="173.6" cy="60" r="5.6"/>
+      <circle cx="53.4" cy="83.4" r="4"/><circle cx="186.6" cy="83.4" r="4"/>
+      <ellipse cx="120" cy="157" rx="12" ry="8"/>
+      <path d="M120 62C137 90 137 122 120 152 103 122 103 90 120 62Z"/>
+      <path d="M116 152C92 141 81 119 85 93 107 104 119 126 116 152Z"/>
+      <path d="M124 152C148 141 159 119 155 93 133 104 121 126 124 152Z"/>
+      <path d="M113 156C89 154 69 140 58 120 84 118 104 133 113 156Z"/>
+      <path d="M127 156C151 154 171 140 182 120 156 118 136 133 127 156Z"/>
+      <path d="M120 163C99 148 70 143 42 151 58 170 92 175 120 163Z"/>
+      <path d="M120 163C141 148 170 143 198 151 182 170 148 175 120 163Z"/>
+    </g>
+  </g>
+  <g fill="#1f8a4c" font-family="'Arial Black','Segoe UI Black',Arial,sans-serif" font-weight="900">
+    <text x="226" y="82" font-size="30" letter-spacing="3">VITA</text>
+    <text x="222" y="146" letter-spacing="1"><tspan font-size="60">REI</tspan><tspan font-size="86">KI</tspan><tspan font-size="60">NETO</tspan></text>
+  </g>
+</svg>

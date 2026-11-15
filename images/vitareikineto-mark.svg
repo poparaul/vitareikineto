@@ -1,16 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <defs>
-    <linearGradient id="brand" x1="6" y1="5" x2="58" y2="59" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7752c8"/>
-      <stop offset="1" stop-color="#287a65"/>
-    </linearGradient>
-    <linearGradient id="motion" x1="17" y1="19" x2="50" y2="48" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#fff"/>
-      <stop offset="1" stop-color="#dff5e8"/>
-    </linearGradient>
-  </defs>
-  <rect x="3" y="3" width="58" height="58" rx="19" fill="url(#brand)"/>
-  <circle cx="32" cy="17" r="4.25" fill="#fff"/>
-  <path d="M32 25v8m0 0L19 46m13-13 13 13M21 25l11 8 11-8" stroke="url(#motion)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
-  <path d="M32 34v13" stroke="#dff5e8" stroke-linecap="round" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 8 200 184">
+  <path d="M50 165A92 92 0 1 1 190 165" fill="none" stroke="#1f8a4c" stroke-width="9" stroke-linecap="round"/>
+  <g fill="#5b2d8e">
+    <circle cx="120" cy="36" r="9"/>
+    <circle cx="90.4" cy="42" r="7"/><circle cx="149.6" cy="42" r="7"/>
+    <circle cx="66.4" cy="60" r="5.6"/><circle cx="173.6" cy="60" r="5.6"/>
+    <circle cx="53.4" cy="83.4" r="4"/><circle cx="186.6" cy="83.4" r="4"/>
+    <ellipse cx="120" cy="157" rx="12" ry="8"/>
+    <path d="M120 62C137 90 137 122 120 152 103 122 103 90 120 62Z"/>
+    <path d="M116 152C92 141 81 119 85 93 107 104 119 126 116 152Z"/>
+    <path d="M124 152C148 141 159 119 155 93 133 104 121 126 124 152Z"/>
+    <path d="M113 156C89 154 69 140 58 120 84 118 104 133 113 156Z"/>
+    <path d="M127 156C151 154 171 140 182 120 156 118 136 133 127 156Z"/>
+    <path d="M120 163C99 148 70 143 42 151 58 170 92 175 120 163Z"/>
+    <path d="M120 163C141 148 170 143 198 151 182 170 148 175 120 163Z"/>
+  </g>
 </svg>

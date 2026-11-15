@@ -18,7 +18,7 @@
         !parsed.every((item) => item && typeof item.category === "string" &&
           typeof item.name === "string" && typeof item.price === "string" &&
           typeof item.details === "string")) {
-      throw new Error("Datele salvate au un format invalid. Încearcă restaurarea valorilor arhivate.");
+      throw new Error("Datele salvate au un format invalid. Încearcă restaurarea valorilor inițiale.");
     }
     return parsed;
   }
@@ -92,7 +92,7 @@
     try {
       localStorage.removeItem(data.storageKey);
       render();
-      status.textContent = "Au fost restaurate valorile arhivate din 2025.";
+      status.textContent = "Au fost restaurate valorile inițiale.";
       status.className = "admin-status-success";
     } catch (error) {
       showError(`Nu s-au putut restaura valorile: ${error.message}`);
